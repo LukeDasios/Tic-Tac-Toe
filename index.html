@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+
+<div id="scoreboard">
+    <div class="score-box-left">
+        <p>P1:<p id="p-one-score">0</p></p>
+    </div>
+    <div class="score-box-right">
+        <p>P2:<p id="p-two-score">0</p></p>
+    </div>
+</div>
+
+<button id ="play-again" onclick="gameRestart()">Play again</button></div>
+
+<h1 id="match-result"></h1>
+
+    <div class="grid-container">
+        <div class="square" id="squareZero"><button onclick="buttonZeroClick()" onmouseover="buttonZeroEnter()" onmouseleave ="buttonZeroLeave()"></button></div>
+        <div class="square" id="squareOne"><button onclick="buttonOneClick()" onmouseover="buttonOneEnter()" onmouseleave ="buttonOneLeave()"></button></div>
+        <div class="square" id="squareTwo"><button onclick="buttonTwoClick()" onmouseover="buttonTwoEnter()" onmouseleave ="buttonTwoLeave()"></button></div>  
+        <div class="square" id="squareThree"><button onclick="buttonThreeClick()" onmouseover="buttonThreeEnter()" onmouseleave ="buttonThreeLeave()"></button></div>
+        <div class="square" id="squareFour"><button onclick="buttonFourClick()" onmouseover="buttonFourEnter()" onmouseleave ="buttonFourLeave()"></button></div>
+        <div class="square" id="squareFive"><button onclick="buttonFiveClick()" onmouseover="buttonFiveEnter()" onmouseleave ="buttonFiveLeave()"></button></div>  
+        <div class="square" id="squareSix"><button onclick="buttonSixClick()" onmouseover="buttonSixEnter()" onmouseleave ="buttonSixLeave()"></button></div>
+        <div class="square" id="squareSeven"><button onclick="buttonSevenClick()" onmouseover="buttonSevenEnter()" onmouseleave ="buttonSevenLeave()"></button></div>
+        <div class="square" id="squareEight"><button onclick="buttonEightClick()" onmouseover="buttonEightEnter()" onmouseleave ="buttonEightLeave()"></button></div>  
+    </div>
+    
+    <script src="javascript.js" type="text/javascript" charset="UTF-8"></script>
+</body>
+</html>
+
